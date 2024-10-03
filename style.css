@@ -1,0 +1,115 @@
+@font-face {
+    font-family: fonteImportada;
+    src: url(fonts/Bauhaus\ 93\ Regular.ttf);
+}
+
+body, a, p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    height: 40px;
+}
+
+header a img {
+    height: 20px;
+}
+
+main {
+    background-color: #a1a6a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra-pesquisa {
+    padding: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barra-pesquisa input {
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0.1em 0.3em #000000;
+}
+
+.barra-pesquisa button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-left: 20px;
+    box-shadow: 0.1em 0.3em #000000;
+    background-color: #2d14aa;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.resultados-pesquisa {
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 5rem;
+    border-radius: 0.6rem;
+}
+
+.item-resultado {
+    font-family: Arial;
+    background: white;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-resultado h2 {
+    font-family: fonteImportada;
+    font-size: 2rem;
+    color: #2d14aa;
+    text-shadow: 0.05em 0.064em #000000
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: #0055ff;
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #303D59; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: arial;
+    text-align: center;
+    font-size: 0.8rem;
+}

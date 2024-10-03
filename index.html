@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Image/AsimovArchiveFavicon.ico" type="image/x-icon">
+    <title>Asimov Archive</title>
+</head>
+
+<body>
+    <header>
+        <img src="Image/asimovarchivelogomenor.png" alt="Logo do Asimov Archive">
+        <a href="sobre.html"><img src="Image/sobre.png" alt="Sobre"></a>
+    </header>
+
+    <main>
+        <section class="barra-pesquisa">
+            <input type="text" placeholder="Pesquise por uma obra de Isaac Asimov..." id="campo-pesquisa">
+            <button onclick="pesquisar()" id="botao">Pesquisar</button>
+        </section>
+
+        <section class="resultado-pesquisa" id="resultado-pesquisa">
+        </section>
+
+    </main>
+    <footer>
+        <p>2024 - Asimov Archive<br><br>Feito na Imersão Dev com google Gemini da Alura</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script> 
+</body>
+</html>
